@@ -97,6 +97,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     
 <button id='btnGet' class="btn btn-default">btnGet</button>
  
+    
+<table id='tblMusicList' > </table>
+ 
+    
+<input id='txtImageName' > </input>
+ 
+    
+<input id='txtMusicName' > </input>
+ 
+    
+<input id='txtImageUrl' > </input>
+ 
+    
+<input id='txtMusicUrl' > </input>
+ 
  
   </div>
 
