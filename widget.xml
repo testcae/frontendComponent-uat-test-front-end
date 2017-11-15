@@ -94,6 +94,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     
 <button id='btnSubmit' class="btn btn-default">btnSubmit</button>
  
+    
+<button id='btnGet' class="btn btn-default">btnGet</button>
+ 
  
   </div>
 
