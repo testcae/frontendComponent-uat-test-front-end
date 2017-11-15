@@ -42,8 +42,36 @@ var init = function() {
 
   client = new Las2peerWidgetLibrary("http://ec2-18-220-244-52.us-east-2.compute.amazonaws.com:8086", iwcCallback);
 
+  $('#btnSubmit').on('click', function() {
+    //start parameter initiation
+
+    //end parameter initiation
+    submitMusic();
+  })
 
 
+}
+
+// submitMusic
+
+var submitMusic = function(){
+
+//start variable declaration
+   var returnSubmit = null;
+
+//end variable declaration
+
+   var postMusicContent = null;
+  client.sendRequest("POST", /music/, postMusicContent, "text/plain", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
+
+  //Additional own javascript
+ return returnSubmit;
 }
 
 
